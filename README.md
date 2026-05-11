@@ -64,7 +64,7 @@ k8_manifests/
 docker-compose.yml
 
 
-Features
+# Features
 - Containerized frontend and backend services
 - Kubernetes-native application deployment
 - Service-to-service communication
@@ -77,7 +77,7 @@ Features
 - Config and secret management
 - Scalable infrastructure design
 
-Autoscaling
+# Autoscaling
 - Horizontal Pod Autoscaler (HPA) configured for:
 - Frontend deployments
 - Backend deployments
@@ -86,7 +86,7 @@ Metrics used:
 - Memory Utilization
 HPA dynamically scales pods based on resource consumption to improve scalability and availability.
 
-Deployment Strategies Implemented
+# Deployment Strategies Implemented
 - Rolling Updates
     Gradual replacement of old pods with updated pods without downtime.
 - Blue-Green Deployment
@@ -94,7 +94,7 @@ Deployment Strategies Implemented
 - Canary Deployment
     Controlled traffic shifting to validate new application versions before full rollout.
 
-Local Setup
+# Local Setup
 - Clone Repository
     git clone <repo-url>
     cd production-grade-k8s-platform
@@ -120,7 +120,7 @@ Local Setup
        kubectl get ingress
        kubectl get hpa
 
-- Kubernetes Concepts Implemented
+# Kubernetes Concepts Implemented
        Pods
        Deployments
        ReplicaSets
@@ -133,6 +133,6 @@ Local Setup
        Resource Requests & Limits
        Deployment Strategies
 
-- Author
+# Author
 Harsh Verma
 DevOps | Kubernetes | Docker | Cloud-Native Engineering 
